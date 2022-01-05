@@ -1,13 +1,15 @@
-# **Clone Model - A Laravel Nova Package for clone a model Data.**
+## **Clone Model - A Laravel Nova Package for clone a model Data.**
 
-# Install Clone Model package to your nova project
+---
+
+### Installation
 
 ```shell
 composer require mphpmaster/laravel-nova-clone-model
 ```
 
-## Usage
-```injectablephp
+### Usage
+```php
 use MPhpMaster\LaravelNovaCloneModel\CloneModel;
 
 CloneModel::make()
@@ -31,12 +33,12 @@ CloneModel::make()
 
 ![Demo Image1.2](https://live.staticflickr.com/65535/49716480142_078255a179_k.jpg)
 
-**You can customize the Clone model button text? **
+**You can customize the Clone model button text→**
 
-```injectablephp
+```php
 CloneModel::make()
     ->withMeta([
-        .... include other metas .... ,
+        // .... include other metas .... ,
         
         'button_text' => 'Custom Clone Button', // By default its clone  icon.
     ]),
@@ -44,17 +46,16 @@ CloneModel::make()
 
 ![Demo image1.3](https://live.staticflickr.com/65535/49716481277_77624978f8_k.jpg)
 
-# You can customize your own dialogue box. By Default ? 
+### Customization
 
-## Customization of confirm dialogue box.
-
-***? Use title, body, confirm_button_text and cancel_button_text metafor customization***
+Use `title`, `body`, `confirm_button_text` and `cancel_button_text` meta for customization
 
 ![Demo image2](https://live.staticflickr.com/65535/49711939342_756c8d63ac_k.jpg)
-```injectablephp
+
+```php
 CloneModel::make()
     ->withMeta([
-        .... include other metas .... ,
+        // .... include other metas .... ,
 
        'title' => 'Custom Title',  // by default 'title' => 'Confirmation'
        'body' => 'Custom Body',   // by default 'body' => 'Are you sure ?'
@@ -65,4 +66,4 @@ CloneModel::make()
 
 ![Demo image3](https://live.staticflickr.com/65535/49711922942_0d73f97285_k.jpg)
 
-***? This package only available in Resource Detail page.***
+### → This package only available in Resource Detail page.
