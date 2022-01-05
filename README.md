@@ -1,6 +1,5 @@
-## **Clone Model - A Laravel Nova Package for clone a model Data.**
-
----
+## Clone Model
+*A Laravel Nova Package for clone a model Data.*
 
 ### Installation
 
