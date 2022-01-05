@@ -1,0 +1,42 @@
+{
+    "name": "mphpmaster/laravel-nova-clone-model",
+    "description": "A Laravel Nova Package for clone a model Data.",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "nova",
+        "clone",
+        "replicate",
+        "duplicate"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hlaCk",
+            "email": "mPhpMaster@gmail.com",
+            "homepage": "https://github.com/mPhpMaster/laravel-nova-clone-model",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MPhpMaster\\LaravelNovaCloneModel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MPhpMaster\\LaravelNovaCloneModel\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
